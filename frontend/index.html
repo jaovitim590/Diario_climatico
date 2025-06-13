@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Diário Climático</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <h1>Diário Climático</h1>
 
+  <h3>H3 L!</h3>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam fuga optio alias porro consectetur ab ipsam architecto aliquam eum, enim maxime qui rerum suscipit dignissimos fugit numquam sint. Mollitia?</p>
+  <p>Cristiano valdo</p>
+
   <form id="form-clima">
-    <input type="date" name="data" required>
-    <input type="text" name="temperatura" placeholder="Temperatura" required>
+    <input type="date" name="data" required />
+    <input type="text" name="temperatura" placeholder="Temperatura" required />
     <textarea name="comentario" placeholder="Comentário sobre o clima" required></textarea>
-    <button type="submit">Salvar</button>
   </form>
+
+  <div id="vazio"></div>
 
   <h2>Registros</h2>
   <ul id="lista-clima"></ul>
 
+  <footer>
+    Feito por
+    <a href="https://github.com/m7zz" target="_blank" rel="noopener noreferrer">Marlin do BDI</a>
+    e
+    <a href="https://github.com/jaovitim590" target="_blank" rel="noopener noreferrer">jaovitim-nao-presta</a>
+  </footer>
 
-  <footer> Feito por marlin do BDI e jaovitim-nao-presta</footer>
   <script src="script.js"></script>
 </body>
 </html>
