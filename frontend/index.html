@@ -16,16 +16,11 @@
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam fuga optio alias porro consectetur ab ipsam architecto aliquam eum, enim maxime qui rerum suscipit dignissimos fugit numquam sint. Mollitia?</p>
   <p>Cristiano valdo</p>
 
-  <form id="form-clima">
-    <input type="date" name="data" required />
-    <input type="text" name="temperatura" placeholder="Temperatura" required />
-    <textarea name="comentario" placeholder="Comentário sobre o clima" required></textarea>
-  </form>
+  <select id="dataDropdown">
+    <option value="" disabled selected>Selecione uma data</option>
+  </select>
 
-  <div id="vazio"></div>
-
-  <h2>Registros</h2>
-  <ul id="lista-clima"></ul>
+  <div id="infoClima" style="display: none; margin-top: 20px;"></div>
 
   <footer>
     Feito por
