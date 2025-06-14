@@ -1,11 +1,5 @@
-Parabéns a você e ao Marlin por estarem começando no mundo da programação e já desenvolvendo um projeto tão legal para a escola\! Um `README.md` bem feito é essencial para qualquer projeto, especialmente para um trabalho escolar, pois demonstra organização e profissionalismo.
-
-Vamos criar um `README.md` completo e didático para o seu "Diário Climático BH", destacando o que vocês aprenderam e o que o projeto faz.
-
------
 
 # ☁️ Diário Climático BH 🌡️
-
 ## 📝 Descrição do Projeto
 
 Este projeto, "Diário Climático BH", é uma aplicação web simples e interativa desenvolvida para exibir informações climáticas diárias da cidade de Belo Horizonte (BH). Nosso objetivo principal foi colocar em prática conceitos básicos de desenvolvimento web, utilizando HTML para estruturar a página, CSS para estilizar e JavaScript para adicionar interatividade e buscar dados.
@@ -102,8 +96,8 @@ Para visualizar e testar o "Diário Climático BH" em sua máquina, siga os pass
 
 Este projeto foi desenvolvido com dedicação e aprendizado por:
 
-  * **JaoVitim** - `https://github.com/jaovitim590`]
-  * **Marlin** -`https://github.com/m7zz`]
+  * **Jaoa Vitor** - `https://github.com/jaovitim590`]
+  * **Marlon** -`https://github.com/m7zz`]
 
 ## 🎓 Aprendizados no Projeto
 
