@@ -9,9 +9,15 @@ ARQUIVO_DADOS = 'clima.json'
 
 def ler_dados():
     try:
-        with open(ARQUIVO_DADOS, 'r') as f:
-            return json.load(f)
+      
+        with open(ARQUIVO_DADOS, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data
     except FileNotFoundError:
+        print(f"Erro: Arquivo '{ARQUIVO_DADOS}' não encontrado.")
+        return []
+    except json.JSONDecodeError as e:
+        print(f"Erro ao decodificar JSON de '{ARQUIVO_DADOS}': {e}")
         return []
 
 @app.route('/clima', methods=['GET'])
