@@ -6,7 +6,7 @@
     "precip_mm": 0.0,
     "umidade_media_percent": 60,
     "texte": "Dia agradável e seco, sem chuva.",
-    "analise": "As temperaturas moderadas e a ausência de precipitação indicam um dia típico de outono em Belo Horizonte, com céu claro e clima estável."
+    "analise": "As **temperaturas moderadas** (mínima de 14°C e máxima de 26°C) e a **ausência total de precipitação** indicam um dia de **céu claro e clima estável**, perfeitamente **típico de outono em Belo Horizonte**. A umidade em 60% contribui para uma sensação de **conforto térmico**, tornando o dia ideal para atividades ao ar livre."
   },
   {
     "data": "2025-06-02",
@@ -15,7 +15,7 @@
     "precip_mm": 0.2,
     "umidade_media_percent": 65,
     "texte": "Pouca chuva e clima levemente úmido.",
-    "analise": "A pequena quantidade de precipitação indica leve instabilidade, mas as temperaturas continuam agradáveis, favorecendo atividades ao ar livre."
+    "analise": "A **pequena quantidade de precipitação** (0.2mm) sugere uma **leve instabilidade isolada**, mas as temperaturas, que variam de 15°C a 27°C, continuam **muito agradáveis**. A umidade de 65% indica um ar ligeiramente mais úmido, sem comprometer a sensação térmica. O dia ainda **favorece atividades ao ar livre**, com baixa chance de incômodo por chuva."
   },
   {
     "data": "2025-06-03",
@@ -24,7 +24,7 @@
     "precip_mm": 0.0,
     "umidade_media_percent": 70,
     "texte": "Dia seco com umidade relativamente alta.",
-    "analise": "Apesar da umidade elevada, a ausência de chuva sugere que o ar está úmido, mas sem formação de nuvens de chuva."
+    "analise": "Embora a **umidade esteja relativamente alta** (70%), a **ausência total de chuva** (0.0mm) indica que o ar está úmido, mas sem condições para formação de nuvens de chuva significativas. As temperaturas elevadas para o período (16°C a 27°C) combinadas com a umidade podem gerar uma **sensação de abafamento em certos momentos do dia**, apesar do tempo seco."
   },
   {
     "data": "2025-06-04",
@@ -33,7 +33,7 @@
     "precip_mm": 0.4,
     "umidade_media_percent": 72,
     "texte": "Chuva leve e clima úmido.",
-    "analise": "O aumento da umidade e a pequena precipitação indicam condições favoráveis à formação de chuvas leves durante o dia."
+    "analise": "O **aumento da umidade** (72%) e a **pequena precipitação** (0.4mm) sinalizam **condições mais úmidas e propícias a chuvas leves e passageiras** ao longo do dia. As temperaturas variam de 16°C a 25°C, mantendo o clima ameno. É um dia em que o **guarda-chuva pode ser útil**, especialmente em períodos mais críticos de instabilidade."
   },
   {
     "data": "2025-06-05",
@@ -42,7 +42,7 @@
     "precip_mm": 0.0,
     "umidade_media_percent": 65,
     "texte": "Dia seco com temperaturas confortáveis.",
-    "analise": "Céu claro e temperatura amena proporcionam um dia agradável típico do outono, sem chuva."
+    "analise": "Com **céu claro** (0.0mm de precipitação) e uma **amplitude térmica confortável** (17°C a 26°C), este dia se apresenta como um **período de tempo agradável e seco**, típico do outono em Belo Horizonte. A umidade de 65% mantém o ar respirável, sem ressecamento excessivo ou sensação de abafamento."
   },
   {
     "data": "2025-06-06",
@@ -51,7 +51,7 @@
     "precip_mm": 0.0,
     "umidade_media_percent": 60,
     "texte": "Dia seco e ensolarado.",
-    "analise": "Baixa umidade e ausência de chuva indicam um dia típico de céu limpo e muito sol."
+    "analise": "A **baixa umidade** (60%) combinada com a **total ausência de chuva** (0.0mm) indica um **dia tipicamente ensolarado e de céu limpo**. As temperaturas variam de 17°C a 27°C, sugerindo um aquecimento considerável durante a tarde. **Ideal para quem busca sol**, mas atenção à hidratação devido ao ar mais seco."
   },
   {
     "data": "2025-06-07",
@@ -60,7 +60,7 @@
     "precip_mm": 0.1,
     "umidade_media_percent": 68,
     "texte": "Chuva muito leve e umidade moderada.",
-    "analise": "A pequena precipitação não deve causar grandes mudanças no tempo, mantendo o clima estável com leve umidade."
+    "analise": "Uma **precipitação quase imperceptível** (0.1mm) e a umidade em 68% indicam que o dia será de **tempo estável com leve umidade**. As temperaturas, entre 16°C e 26°C, permanecem agradáveis. A chuva muito leve **não deve causar impacto significativo** nas atividades do dia, apenas um ligeiro aumento na umidade do ar."
   },
   {
     "data": "2025-06-08",
@@ -69,7 +69,7 @@
     "precip_mm": 0.0,
     "umidade_media_percent": 66,
     "texte": "Dia seco com umidade confortável.",
-    "analise": "A umidade está moderada e sem chuva, criando condições agradáveis para o dia."
+    "analise": "Com **umidade moderada** (66%) e **sem qualquer precipitação** (0.0mm), o dia oferece condições climáticas **muito agradáveis e secas**. As temperaturas de 15°C a 26°C contribuem para um **conforto térmico elevado**, tornando este um dia excelente para atividades externas sem preocupações com chuva ou abafamento."
   },
   {
     "data": "2025-06-09",
@@ -78,7 +78,7 @@
     "precip_mm": 0.0,
     "umidade_media_percent": 64,
     "texte": "Dia seco e ameno.",
-    "analise": "Temperaturas amenas e ausência de precipitação caracterizam um dia estável e agradável."
+    "analise": "As **temperaturas amenas e bem distribuídas** (15°C a 25°C) e a **total ausência de precipitação** (0.0mm) caracterizam um dia de **tempo estável e seco**. A umidade em 64% garante que o ar não fique excessivamente seco, proporcionando um dia agradável e confortável, ideal para passeios e lazer ao ar livre."
   },
   {
     "data": "2025-06-10",
@@ -87,7 +87,7 @@
     "precip_mm": 0.3,
     "umidade_media_percent": 70,
     "texte": "Chuva leve com umidade alta.",
-    "analise": "A precipitação e a umidade elevada indicam condições úmidas, típicas de um dia com chuvas leves e céu parcialmente nublado."
+    "analise": "A **precipitação leve** (0.3mm) e a **umidade elevada** (70%) indicam **condições mais úmidas e com possibilidade de chuvas passageiras** ao longo do dia. As temperaturas variam de 14°C a 26°C, mantendo um clima ameno. É um dia para estar preparado para garoa ou chuviscos, com o **céu provavelmente parcialmente nublado**."
   },
   {
     "data": "2025-06-11",
@@ -96,7 +96,7 @@
     "precip_mm": 0.2,
     "umidade_media_percent": 75,
     "texte": "Chuva leve e alta umidade.",
-    "analise": "O aumento da umidade e a presença de precipitação indicam um dia úmido, com chuvas passageiras e temperaturas amenas."
+    "analise": "O **aumento da umidade** para 75% e a presença de **precipitação leve** (0.2mm) indicam um **dia predominantemente úmido**, com potencial para chuvas passageiras. As temperaturas, entre 13°C e 25°C, são amenas, mas a alta umidade pode gerar uma sensação de ar mais 'pesado'. **Um guarda-chuva pode ser um bom companheiro** neste dia."
   },
   {
     "data": "2025-06-12",
@@ -105,6 +105,6 @@
     "precip_mm": 0.0,
     "umidade_media_percent": 68,
     "texte": "Dia seco com umidade moderada.",
-    "analise": "Condições típicas de outono com céu claro e umidade que não compromete o conforto."
+    "analise": "Este dia apresenta **condições típicas de outono**, com **céu claro** (0.0mm de precipitação) e uma **umidade moderada** (68%), que contribui para o conforto e não compromete a qualidade do ar. As temperaturas variam de 14°C a 26°C, garantindo um dia **agradável e seco**, sem surpresas climáticas."
   }
 ]

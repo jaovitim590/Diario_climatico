@@ -4,7 +4,6 @@ fetch('http://localhost:5000/clima')
     const dropdown = document.getElementById('dataDropdown');
     const info = document.getElementById('infoClima');
 
-
     clima.forEach(dia => {
       const option = document.createElement('option');
       option.value = dia.data;
@@ -29,29 +28,44 @@ fetch('http://localhost:5000/clima')
         return;
       }
 
+      // Função para converter **texto** em <strong>texto</strong>
+      const formatTextForHTML = (text) => {
+        // Substitui **texto** por <strong>texto</strong>
+        // Usa uma expressão regular para capturar o texto entre os ** **
+        // g = global (substitui todas as ocorrências)
+        return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      };
+
+      const analiseFormatada = formatTextForHTML(selecionado.analise);
+
       info.innerHTML = `
-        <div style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
-          <div style="text-align: center;">
-            <i class="bi bi-thermometer-snow" style="font-size: 40px;"></i>
+        <div class="clima-resumo-grid">
+          <div class="clima-item">
+            <i class="bi bi-thermometer-snow"></i>
             <p>${selecionado.temp_min_C}°C</p>
           </div>
-          <div style="text-align: center;">
-            <i class="bi bi-thermometer-sun" style="font-size: 40px;"></i>
+          <div class="clima-item">
+            <i class="bi bi-thermometer-sun"></i>
             <p>${selecionado.temp_max_C}°C</p>
           </div>
-          <div style="text-align: center;">
-            <i class="bi bi-cloud-drizzle" style="font-size: 40px;"></i>
+          <div class="clima-item">
+            <i class="bi bi-cloud-drizzle"></i>
             <p>${selecionado.precip_mm} mm</p>
           </div>
-          <div style="text-align: center;">
-            <i class="bi bi-water" style="font-size: 40px;"></i>
+          <div class="clima-item">
+            <i class="bi bi-water"></i>
             <p>${selecionado.umidade_media_percent}%</p>
           </div>
         </div>
 
-        <div style="margin-top: 10px;">
-          <p><strong>Nota climática:</strong> ${selecionado.texte}</p>
-          <p><strong>Explicação:</strong> ${selecionado.analise}</p>
+        <div class="clima-secao-texto">
+          <h4>Nota Climática:</h4>
+          <p>${selecionado.texte}</p>
+        </div>
+
+        <div class="clima-secao-texto">
+          <h4>Análise Detalhada:</h4>
+          <p>${analiseFormatada}</p>
         </div>
       `;
 
@@ -60,4 +74,7 @@ fetch('http://localhost:5000/clima')
   })
   .catch(error => {
     console.error('Erro ao carregar os dados do clima:', error);
+    const info = document.getElementById('infoClima');
+    info.innerHTML = '<p style="color: red; text-align: center;">Não foi possível carregar os dados do clima. Verifique a conexão ou o servidor.</p>';
+    info.style.display = 'block';
   });
