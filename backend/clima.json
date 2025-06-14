@@ -4,83 +4,107 @@
     "temp_min_C": 14,
     "temp_max_C": 26,
     "precip_mm": 0.0,
-    "umidade_media_percent": 60
+    "umidade_media_percent": 60,
+    "texte": "Dia agradável e seco, sem chuva.",
+    "analise": "As temperaturas moderadas e a ausência de precipitação indicam um dia típico de outono em Belo Horizonte, com céu claro e clima estável."
   },
   {
     "data": "2025-06-02",
     "temp_min_C": 15,
     "temp_max_C": 27,
     "precip_mm": 0.2,
-    "umidade_media_percent": 65
+    "umidade_media_percent": 65,
+    "texte": "Pouca chuva e clima levemente úmido.",
+    "analise": "A pequena quantidade de precipitação indica leve instabilidade, mas as temperaturas continuam agradáveis, favorecendo atividades ao ar livre."
   },
   {
     "data": "2025-06-03",
     "temp_min_C": 16,
     "temp_max_C": 27,
     "precip_mm": 0.0,
-    "umidade_media_percent": 70
+    "umidade_media_percent": 70,
+    "texte": "Dia seco com umidade relativamente alta.",
+    "analise": "Apesar da umidade elevada, a ausência de chuva sugere que o ar está úmido, mas sem formação de nuvens de chuva."
   },
   {
     "data": "2025-06-04",
     "temp_min_C": 16,
     "temp_max_C": 25,
     "precip_mm": 0.4,
-    "umidade_media_percent": 72
+    "umidade_media_percent": 72,
+    "texte": "Chuva leve e clima úmido.",
+    "analise": "O aumento da umidade e a pequena precipitação indicam condições favoráveis à formação de chuvas leves durante o dia."
   },
   {
     "data": "2025-06-05",
     "temp_min_C": 17,
     "temp_max_C": 26,
     "precip_mm": 0.0,
-    "umidade_media_percent": 65
+    "umidade_media_percent": 65,
+    "texte": "Dia seco com temperaturas confortáveis.",
+    "analise": "Céu claro e temperatura amena proporcionam um dia agradável típico do outono, sem chuva."
   },
   {
     "data": "2025-06-06",
     "temp_min_C": 17,
     "temp_max_C": 27,
     "precip_mm": 0.0,
-    "umidade_media_percent": 60
+    "umidade_media_percent": 60,
+    "texte": "Dia seco e ensolarado.",
+    "analise": "Baixa umidade e ausência de chuva indicam um dia típico de céu limpo e muito sol."
   },
   {
     "data": "2025-06-07",
     "temp_min_C": 16,
     "temp_max_C": 26,
     "precip_mm": 0.1,
-    "umidade_media_percent": 68
+    "umidade_media_percent": 68,
+    "texte": "Chuva muito leve e umidade moderada.",
+    "analise": "A pequena precipitação não deve causar grandes mudanças no tempo, mantendo o clima estável com leve umidade."
   },
   {
     "data": "2025-06-08",
     "temp_min_C": 15,
     "temp_max_C": 26,
     "precip_mm": 0.0,
-    "umidade_media_percent": 66
+    "umidade_media_percent": 66,
+    "texte": "Dia seco com umidade confortável.",
+    "analise": "A umidade está moderada e sem chuva, criando condições agradáveis para o dia."
   },
   {
     "data": "2025-06-09",
     "temp_min_C": 15,
     "temp_max_C": 25,
     "precip_mm": 0.0,
-    "umidade_media_percent": 64
+    "umidade_media_percent": 64,
+    "texte": "Dia seco e ameno.",
+    "analise": "Temperaturas amenas e ausência de precipitação caracterizam um dia estável e agradável."
   },
   {
     "data": "2025-06-10",
     "temp_min_C": 14,
     "temp_max_C": 26,
     "precip_mm": 0.3,
-    "umidade_media_percent": 70
+    "umidade_media_percent": 70,
+    "texte": "Chuva leve com umidade alta.",
+    "analise": "A precipitação e a umidade elevada indicam condições úmidas, típicas de um dia com chuvas leves e céu parcialmente nublado."
   },
   {
     "data": "2025-06-11",
     "temp_min_C": 13,
     "temp_max_C": 25,
     "precip_mm": 0.2,
-    "umidade_media_percent": 75
+    "umidade_media_percent": 75,
+    "texte": "Chuva leve e alta umidade.",
+    "analise": "O aumento da umidade e a presença de precipitação indicam um dia úmido, com chuvas passageiras e temperaturas amenas."
   },
   {
     "data": "2025-06-12",
     "temp_min_C": 14,
     "temp_max_C": 26,
     "precip_mm": 0.0,
-    "umidade_media_percent": 68
+    "umidade_media_percent": 68,
+    "texte": "Dia seco com umidade moderada.",
+    "analise": "Condições típicas de outono com céu claro e umidade que não compromete o conforto."
   }
 ]
