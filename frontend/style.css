@@ -144,3 +144,23 @@ footer a:hover {
   color: #ffffff;
   text-shadow: 0 0 5px #4b0db8cc;
 }
+#dataDropdown {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #007bff;
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#dataDropdown:hover {
+  background-color: #e9ecef;
+}
+
+#dataDropdown:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 5px #0056b3;
+}
