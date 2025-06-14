@@ -4,7 +4,10 @@ fetch('http://localhost:5000/clima')
     const dropdown = document.getElementById('dataDropdown');
     const info = document.getElementById('infoClima');
 
+<<<<<<< HEAD
     // Preenche o dropdown com as datas
+=======
+>>>>>>> 94e696adf3b10f89d735c5150c2db6481a84a95e
     clima.forEach(dia => {
       const option = document.createElement('option');
       option.value = dia.data;
@@ -31,6 +34,12 @@ fetch('http://localhost:5000/clima')
 
       // Função para converter **texto** em <strong>texto</strong>
       const formatTextForHTML = (text) => {
+<<<<<<< HEAD
+=======
+        // Substitui **texto** por <strong>texto</strong>
+        // Usa uma expressão regular para capturar o texto entre os ** **
+        // g = global (substitui todas as ocorrências)
+>>>>>>> 94e696adf3b10f89d735c5150c2db6481a84a95e
         return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
       };
 
@@ -67,12 +76,21 @@ fetch('http://localhost:5000/clima')
         </div>
       `;
 
+<<<<<<< HEAD
       info.classList.add('show');
+=======
+      info.style.display = 'block';
+>>>>>>> 94e696adf3b10f89d735c5150c2db6481a84a95e
     });
   })
   .catch(error => {
     console.error('Erro ao carregar os dados do clima:', error);
     const info = document.getElementById('infoClima');
     info.innerHTML = '<p style="color: red; text-align: center;">Não foi possível carregar os dados do clima. Verifique a conexão ou o servidor.</p>';
+<<<<<<< HEAD
     info.classList.add('show');
   });
+=======
+    info.style.display = 'block';
+  });
+>>>>>>> 94e696adf3b10f89d735c5150c2db6481a84a95e
