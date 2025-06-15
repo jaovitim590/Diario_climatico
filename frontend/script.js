@@ -1,10 +1,25 @@
-fetch('http://localhost:5000/clima')
-  .then(response => response.json())
+
+fetch('clima.json')
+  .then(response => {
+
+    if (!response.ok) {
+
+      throw new Error(`Erro ao carregar os dados do clima: ${response.status} ${response.statusText}`);
+    }
+
+    return response.json();
+  })
   .then(clima => {
+  
+    console.log('Dados do clima carregados do arquivo local:', clima);
+
     const dropdown = document.getElementById('dataDropdown');
     const info = document.getElementById('infoClima');
 
-    // Preenche o dropdown com as datas
+  
+    dropdown.innerHTML = '<option value="">Selecione uma data</option>';
+
+  
     clima.forEach(dia => {
       const option = document.createElement('option');
       option.value = dia.data;
@@ -12,30 +27,36 @@ fetch('http://localhost:5000/clima')
       dropdown.appendChild(option);
     });
 
+   
     dropdown.addEventListener('change', () => {
       const valorSelecionado = dropdown.value;
 
+
       if (!valorSelecionado) {
         info.innerHTML = '';
-        info.classList.remove('show');
+        info.style.display = 'none';
         return;
       }
 
+  
       const selecionado = clima.find(d => d.data === valorSelecionado);
+
 
       if (!selecionado) {
         info.innerHTML = '<p>Dados não encontrados para a data selecionada.</p>';
-        info.classList.add('show');
+        info.style.display = 'block';
         return;
       }
 
-      // Função para converter **texto** em <strong>texto</strong>
+
       const formatTextForHTML = (text) => {
+
         return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
       };
 
       const analiseFormatada = formatTextForHTML(selecionado.analise);
 
+     
       info.innerHTML = `
         <div class="clima-resumo-grid">
           <div class="clima-item">
@@ -67,12 +88,14 @@ fetch('http://localhost:5000/clima')
         </div>
       `;
 
-      info.classList.add('show');
+
+      info.style.display = 'block';
     });
   })
   .catch(error => {
+
     console.error('Erro ao carregar os dados do clima:', error);
     const info = document.getElementById('infoClima');
-    info.innerHTML = '<p style="color: red; text-align: center;">Não foi possível carregar os dados do clima. Verifique a conexão ou o servidor.</p>';
-    info.classList.add('show');
+    info.innerHTML = '<p style="color: red; text-align: center;">Não foi possível carregar os dados do clima. Verifique se o arquivo "clima.json" está na pasta correta e se você está usando um servidor local.</p>';
+    info.style.display = 'block';
   });
