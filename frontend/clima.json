@@ -1,110 +1,182 @@
 [
   {
-    "data": "01/06/2025",
-    "temp_min_C": 14,
-    "temp_max_C": 26,
+    "data": "07/07/2025",
+    "temp_min_C": 11,
+    "temp_max_C": 22,
     "precip_mm": 0.0,
-    "umidade_media_percent": 60,
-    "texte": "Dia agradável e seco, sem chuva.",
-    "analise": "As **temperaturas moderadas** (mínima de 14°C e máxima de 26°C) e a **ausência total de precipitação** indicam um dia de **céu claro e clima estável**, perfeitamente **típico de outono em Belo Horizonte**. A umidade em 60% contribui para uma sensação de **conforto térmico**, tornando o dia ideal para atividades ao ar livre."
-  },
-  {
-    "data": "02/06/2025",
-    "temp_min_C": 15,
-    "temp_max_C": 27,
-    "precip_mm": 0.2,
-    "umidade_media_percent": 65,
-    "texte": "Pouca chuva e clima levemente úmido.",
-    "analise": "A **pequena quantidade de precipitação** (0.2mm) sugere uma **leve instabilidade isolada**, mas as temperaturas, que variam de 15°C a 27°C, continuam **muito agradáveis**. A umidade de 65% indica um ar ligeiramente mais úmido, sem comprometer a sensação térmica. O dia ainda **favorece atividades ao ar livre**, com baixa chance de incômodo por chuva."
-  },
-  {
-    "data": "03/06/2025",
-    "temp_min_C": 16,
-    "temp_max_C": 27,
-    "precip_mm": 0.0,
-    "umidade_media_percent": 70,
-    "texte": "Dia seco com umidade relativamente alta.",
-    "analise": "Embora a **umidade esteja relativamente alta** (70%), a **ausência total de chuva** (0.0mm) indica que o ar está úmido, mas sem condições para formação de nuvens de chuva significativas. As temperaturas elevadas para o período (16°C a 27°C) combinadas com a umidade podem gerar uma **sensação de abafamento em certos momentos do dia**, apesar do tempo seco."
-  },
-  {
-    "data": "04/06/2025",
-    "temp_min_C": 16,
-    "temp_max_C": 25,
-    "precip_mm": 0.4,
-    "umidade_media_percent": 72,
-    "texte": "Chuva leve e clima úmido.",
-    "analise": "O **aumento da umidade** (72%) e a **pequena precipitação** (0.4mm) sinalizam **condições mais úmidas e propícias a chuvas leves e passageiras** ao longo do dia. As temperaturas variam de 16°C a 25°C, mantendo o clima ameno. É um dia em que o **guarda-chuva pode ser útil**, especialmente em períodos mais críticos de instabilidade."
-  },
-  {
-    "data": "05/06/2025",
-    "temp_min_C": 17,
-    "temp_max_C": 26,
-    "precip_mm": 0.0,
-    "umidade_media_percent": 65,
-    "texte": "Dia seco com temperaturas confortáveis.",
-    "analise": "Com **céu claro** (0.0mm de precipitação) e uma **amplitude térmica confortável** (17°C a 26°C), este dia se apresenta como um **período de tempo agradável e seco**, típico do outono em Belo Horizonte. A umidade de 65% mantém o ar respirável, sem ressecamento excessivo ou sensação de abafamento."
-  },
-  {
-    "data": "06/06/2025",
-    "temp_min_C": 17,
-    "temp_max_C": 27,
-    "precip_mm": 0.0,
-    "umidade_media_percent": 60,
-    "texte": "Dia seco e ensolarado.",
-    "analise": "A **baixa umidade** (60%) combinada com a **total ausência de chuva** (0.0mm) indica um **dia tipicamente ensolarado e de céu limpo**. As temperaturas variam de 17°C a 27°C, sugerindo um aquecimento considerável durante a tarde. **Ideal para quem busca sol**, mas atenção à hidratação devido ao ar mais seco."
-  },
-  {
-    "data": "07/06/2025",
-    "temp_min_C": 16,
-    "temp_max_C": 26,
-    "precip_mm": 0.1,
     "umidade_media_percent": 68,
-    "texte": "Chuva muito leve e umidade moderada.",
-    "analise": "Uma **precipitação quase imperceptível** (0.1mm) e a umidade em 68% indicam que o dia será de **tempo estável com leve umidade**. As temperaturas, entre 16°C e 26°C, permanecem agradáveis. A chuva muito leve **não deve causar impacto significativo** nas atividades do dia, apenas um ligeiro aumento na umidade do ar."
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Temperaturas entre 11 °C e 22 °C com céu limpo indicam um dia seco e agradável, típico do inverno. Umidade média em torno de 68%, proporcionando conforto térmico."
   },
   {
-    "data": "08/06/2025",
-    "temp_min_C": 15,
-    "temp_max_C": 26,
+    "data": "08/07/2025",
+    "temp_min_C": 12,
+    "temp_max_C": 23,
     "precip_mm": 0.0,
-    "umidade_media_percent": 66,
-    "texte": "Dia seco com umidade confortável.",
-    "analise": "Com **umidade moderada** (66%) e **sem qualquer precipitação** (0.0mm), o dia oferece condições climáticas **muito agradáveis e secas**. As temperaturas de 15°C a 26°C contribuem para um **conforto térmico elevado**, tornando este um dia excelente para atividades externas sem preocupações com chuva ou abafamento."
-  },
-  {
-    "data": "09/06/2025",
-    "temp_min_C": 15,
-    "temp_max_C": 25,
-    "precip_mm": 0.0,
-    "umidade_media_percent": 64,
-    "texte": "Dia seco e ameno.",
-    "analise": "As **temperaturas amenas e bem distribuídas** (15°C a 25°C) e a **total ausência de precipitação** (0.0mm) caracterizam um dia de **tempo estável e seco**. A umidade em 64% garante que o ar não fique excessivamente seco, proporcionando um dia agradável e confortável, ideal para passeios e lazer ao ar livre."
-  },
-  {
-    "data": "10/06/2025",
-    "temp_min_C": 14,
-    "temp_max_C": 26,
-    "precip_mm": 0.3,
     "umidade_media_percent": 70,
-    "texte": "Chuva leve com umidade alta.",
-    "analise": "A **precipitação leve** (0.3mm) e a **umidade elevada** (70%) indicam **condições mais úmidas e com possibilidade de chuvas passageiras** ao longo do dia. As temperaturas variam de 14°C a 26°C, mantendo um clima ameno. É um dia para estar preparado para garoa ou chuviscos, com o **céu provavelmente parcialmente nublado**."
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Dia com céu limpo e temperaturas entre 12 °C e 23 °C. Umidade ligeiramente acima, mas sem precipitação — ideal para atividades ao ar livre."
   },
   {
-    "data": "11/06/2025",
+    "data": "09/07/2025",
+    "temp_min_C": 11,
+    "temp_max_C": 23,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 68,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Sem chuva, temperatura entre 11–23 °C e umidade confortável — mais um dia estável e seco."
+  },
+  {
+    "data": "10/07/2025",
+    "temp_min_C": 12,
+    "temp_max_C": 21,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Temperaturas amenas (12–21 °C) com céu limpo. Umidade estável, dia próprio para passeios sem preocupação com chuva."
+  },
+  {
+    "data": "11/07/2025",
+    "temp_min_C": 12,
+    "temp_max_C": 21,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Condições repetem: dia seco, temperaturas moderadas e umidade confortável."
+  },
+  {
+    "data": "12/07/2025",
     "temp_min_C": 13,
-    "temp_max_C": 25,
-    "precip_mm": 0.2,
-    "umidade_media_percent": 75,
-    "texte": "Chuva leve e alta umidade.",
-    "analise": "O **aumento da umidade** para 75% e a presença de **precipitação leve** (0.2mm) indicam um **dia predominantemente úmido**, com potencial para chuvas passageiras. As temperaturas, entre 13°C e 25°C, são amenas, mas a alta umidade pode gerar uma sensação de ar mais 'pesado'. **Um guarda-chuva pode ser um bom companheiro** neste dia."
+    "temp_max_C": 20,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Nublado, sem chuva.",
+    "analise": "Apesar do nublado, sem precipitação. Temperaturas entre 13–20 °C e umidade em torno de 70% — agradável e levemente fresco."
   },
   {
-    "data": "12/06/2025",
+    "data": "13/07/2025",
     "temp_min_C": 14,
-    "temp_max_C": 26,
+    "temp_max_C": 20,
     "precip_mm": 0.0,
-    "umidade_media_percent": 68,
-    "texte": "Dia seco com umidade moderada.",
-    "analise": "Este dia apresenta **condições típicas de outono**, com **céu claro** (0.0mm de precipitação) e uma **umidade moderada** (68%), que contribui para o conforto e não compromete a qualidade do ar. As temperaturas variam de 14°C a 26°C, garantindo um dia **agradável e seco**, sem surpresas climáticas."
+    "umidade_media_percent": 72,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Céu limpo com temperaturas amenas. Umidade sobe levemente, mas nada que impeça atividades externas."
+  },
+  {
+    "data": "14/07/2025",
+    "temp_min_C": 13,
+    "temp_max_C": 21,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Muito nublado, sem chuva.",
+    "analise": "Mesmo sem chuva, bastante nublado. Temperaturas de 13 a 21 °C com umidade confortável."
+  },
+  {
+    "data": "15/07/2025",
+    "temp_min_C": 15,
+    "temp_max_C": 19,
+    "precip_mm": 0.5,
+    "umidade_media_percent": 75,
+    "texte": "Chuviscos, clima úmido.",
+    "analise": "Leves chuviscos registrados. Temperaturas entre 15–19 °C, umidade alta (75%) — ideal usar capa ou guarda-chuva leve."
+  },
+  {
+    "data": "16/07/2025",
+    "temp_min_C": 17,
+    "temp_max_C": 21,
+    "precip_mm": 0.5,
+    "umidade_media_percent": 75,
+    "texte": "Chuviscos, clima úmido.",
+    "analise": "Continuação do clima úmido com chuviscos isolados, temperaturas suaves e umidade elevada."
+  },
+  {
+    "data": "17/07/2025",
+    "temp_min_C": 17,
+    "temp_max_C": 21,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Retorno ao tempo seco com céu limpo, temperaturas amenas e umidade confortável."
+  },
+  {
+    "data": "18/07/2025",
+    "temp_min_C": 17,
+    "temp_max_C": 21,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Maioritariamente limpo, sem chuva.",
+    "analise": "Sem chuva, céu majoritariamente limpo, condições agradáveis e estabilidade térmica."
+  },
+  {
+    "data": "19/07/2025",
+    "temp_min_C": 17,
+    "temp_max_C": 21,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Maioritariamente limpo, sem chuva.",
+    "analise": "Mesmo padrão: céu limpo, temperaturas confortáveis e umidade moderada."
+  },
+  {
+    "data": "20/07/2025",
+    "temp_min_C": 17,
+    "temp_max_C": 21,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Estabilidade segue, sem previsão de chuva, clima propício para atividades externas."
+  },
+  {
+    "data": "21/07/2025",
+    "temp_min_C": 18,
+    "temp_max_C": 23,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Temperaturas sobem levemente (18–23 °C), com céu limpo — começo de um período mais ameno."
+  },
+  {
+    "data": "22/07/2025",
+    "temp_min_C": 17,
+    "temp_max_C": 22,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Dia com céu limpo e temperaturas amenas; umidade estável."
+  },
+  {
+    "data": "23/07/2025",
+    "temp_min_C": 17,
+    "temp_max_C": 22,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Seguindo o mesmo padrão de dias anteriores — sem chuva e clima agradável."
+  },
+  {
+    "data": "24/07/2025",
+    "temp_min_C": 17,
+    "temp_max_C": 21,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Tempo estável com leve queda de temperatura máxima; continua seco e confortável."
+  },
+  {
+    "data": "25/07/2025",
+    "temp_min_C": 17,
+    "temp_max_C": 21,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Mais um dia seco, com amplitudes térmicas típicas do inverno."
+  },
+  {
+    "data": "26/07/2025",
+    "temp_min_C": 16,
+    "temp_max_C": 22,
+    "precip_mm": 0.0,
+    "umidade_media_percent": 70,
+    "texte": "Céu limpo, sem chuva.",
+    "analise": "Temperatura mínima mais baixa, mas sem chuva; dia fresco e estável."
   }
 ]
